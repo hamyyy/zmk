@@ -39,7 +39,7 @@
          combo_reset {
              timeout-ms = <TIMEOUT>;
              key-positions = <2 4>;
-             bindings = <&reset>;
+             bindings = <&sys_reset>;
          };
          combo_bt_nxt {
              timeout-ms = <TIMEOUT>;
