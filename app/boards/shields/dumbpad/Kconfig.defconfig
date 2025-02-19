@@ -5,14 +5,16 @@ config ZMK_KEYBOARD_NAME
 	default "DumbPad"
 
 if ZMK_DISPLAY || SHIELD_DUMBPAD_OLED_TOP
+
 config I2C
 	default y
 
-config SSD1306
-	default y
+# config SSD1306
+# 	default y
 
-config SSD1306_REVERSE_MODE
-	default y
+# config SSD1306_REVERSE_MODE
+# 	default y
+
 endif # ZMK_DISPLAY
 
 if LVGL
